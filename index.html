@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+        ul.left{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position:absolute;
+            }
+        ul.right{
+            list-style-type: none;
+            margin-left: 80%;
+            }
+        li{
+            display: inline-block;
+        }
+        .center{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 100px;
+        }
+        ul.fleft{
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            position:absolute;
+            }
+        ul.fright{
+            list-style-type: none;
+            margin-left: 80%;
+            }
+        #fnav{
+            background: #f2f2f2;
+            line-height: 40px;
+            bottom: 0;
+            left: 0;
+            position: sticky;
+            right: 0;
+            top: 85%;
+            }
+            .searchbox{
+                width: 382px;
+                border: none;
+                margin-left: 450px;
+                position: fixed;
+                top:300px;
+            }
+            .searchbutton{
+                margin-left: 800px;
+                position: fixed;
+                top:300px;
+            }
+        
+        
+        </style>
+        <title>Google</title>
+        <nav id="navbar">
+             <ul class="left">
+                <li><a href=""><h3>About</h3></a></li>
+                <li><a href=""><h3>Store</h3></a></li>
+            </ul>
+            <ul class="right">
+                <li><a id="right" href=""><h3>Gmail</h3></a></li>
+                <li><a id="left" href=""><h3>Images</h3></a></li>
+            </ul>
+        </nav>
+    </head>
+        <body>
+            <img id="google-logo" src="/home/justin/google-homepage/images/googlelogo_color_272x92dp.png" alt="Google_Logo" width="272" height="92" class="center">
+            <input type="text" placeholder="search" class="searchbox">
+            <button type="button" class="searchbutton">Search</button>
+
+        </body>
+        <footer id="fnav">
+            <ul class="fleft">
+                <li><a href=""><h6>Advertrising</h6</a></li>
+                <li><a href=""><h6>Business</h6></a></li>
+                <li><a href=""><h6>How search works</h6></a></li>
+            </ul>
+            <ul class="fright">
+                <li id="fright"><a href=""><h6>Privacy</h6></a></li>
+                <li><a href="fright"><h6>Terms</h6></a></li>
+                <li><a href="fleft"><h6>Settings</h6></a></li>
+            </ul>
+        </footer>
+    
+</html>
